@@ -1,0 +1,7 @@
+{
+  "name": "onboarding-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
