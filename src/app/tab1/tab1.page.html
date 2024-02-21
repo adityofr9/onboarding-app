@@ -3,13 +3,21 @@
     <ion-title>
       Tab 1
     </ion-title>
+    <!-- Temp route only -->
+    <ion-buttons routerLink="/login" [collapse]="true" slot="end">
+      <ion-button>Log Out</ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Title</ion-title>
+      <!-- Temp route only -->
+      <ion-buttons routerLink="/login" [collapse]="true" slot="end">
+        <ion-button>Log Out</ion-button>
+      </ion-buttons>
     </ion-toolbar>
   </ion-header>
 
